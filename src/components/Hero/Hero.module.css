@@ -49,7 +49,8 @@
 }
 
 .heroImg {
-    width: 50%;
+    width: 25%;
+    border-radius: 100%;
     z-index: 1;
 
     animation-name: floating;
@@ -64,7 +65,7 @@
     }
 
     50% {
-        transform: translate(10px, 10px);
+        transform: translate(0px, 10px);
     }
 
     100% {
@@ -72,10 +73,10 @@
     }
 }
 
-.topBlur {
+/* .topBlur {
     position: absolute;
-    width: 50vw;
-    height: 50vw;
+    width: 25vw;
+    height: 25vw;
     min-width: 350px;
     min-height: 350px;
     top: -128px;
@@ -84,9 +85,9 @@
     background: rgba(25, 55, 109, 0.7);
     filter: blur(100px);
     z-index: 0;
-}
+} */
 
-.bottomBlur {
+/* .bottomBlur {
     position: absolute;
     width: 70vw;
     height: 50vw;
@@ -98,7 +99,7 @@
     background: rgba(25, 55, 109, 0.7);
     filter: blur(100px);
     z-index: 0;
-}
+} */
 
 @media screen and (max-width: 830px) {
     .container {
