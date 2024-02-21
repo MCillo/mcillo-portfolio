@@ -8,21 +8,26 @@
     box-shadow: 0 16px 14px 0 #04152d;
     padding: 18px 24px;
     max-width: 345px;
+    align-items: stretch;
+    flex: 1;
 }
 
 .image {
     margin-bottom: 26px;
+    flex: 1;
 }
 
 .title {
     font-size: 25px;
     font-weight: 700;
+    flex: 1;
 }
 
 .description {
     margin-top: 6px;
     font-size: 25px;
     font-weight: 400;
+    flex: 1;
 }
 
 .skills {
@@ -33,6 +38,7 @@
     flex-wrap: wrap;
     gap: 6px;
     list-style: none;
+    flex: 1;
 }
 
 .skill {
@@ -41,6 +47,7 @@
     border-radius: 100px;
     background: var(--color-dark);
     padding: 2px 22px;
+    flex: 1;
 }
 
 .links {
@@ -48,6 +55,7 @@
     margin-top: 26px;
     display: flex;
     justify-content: space-around;
+    flex: 1;
 }
 
 .link {
@@ -58,4 +66,5 @@
     border-radius: 100px;
     background: var(--color-primary);
     padding: 1px 22px;
+    flex: 1;
 }
