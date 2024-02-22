@@ -32,7 +32,7 @@ export const ProjectCard = ({
         </a>
         <a href={source} className={styles.link}>
           Source
-        </a>
+          </a>
       </div>
     </div>
   );
