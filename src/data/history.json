@@ -4,7 +4,13 @@
     "organisation": "Augusta Liquors",
     "startDate": "February, 2016",
     "endDate": "Present",
-    "experiences": ["Worked on Google Ma", "Reduced load times by 50%"],
-    "imageSrc": "history/google.png"
+    "experiences": ["Research, order, and efficiently manage inventory to meet customer demand", "Lead, train, and schedule a dedicated team of 5 employees, fostering a collaborative work environment."]
+  },
+  {
+    "role": "Assistant Manager",
+    "organisation": "Habersham Beverage",
+    "startDate": "September, 2004",
+    "endDate": "August, 2014",
+    "experiences": ["Conducted comprehensive research for inventory procurement, ensuring optimal stock levels", "Executed store opening and closing procedures, demonstrating strong organizational skills.","Played a pivotal role in training new employees, contributing to a skilled almond cohesive workforce."]
   }
 ]
