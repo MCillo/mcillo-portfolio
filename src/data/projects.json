@@ -1,7 +1,7 @@
 [
   {
     "title": "Pokedex",
-    "imageSrc": "projects/project.png",
+    "imageSrc": "projects/Pokedex-App.png",
     "description": "This is the first responsive web app that I created on my journey into the world of Web Development. It is a simple app that retrieves information from an external API and displays it for the user. I used HTML, CSS, and JavaScript in the creation of this app.",
     "skills": [
       "HTML",
@@ -16,58 +16,60 @@
     "imageSrc": "projects/project.png",
     "description": "This project was my initial foray into creating my very own REST API. In this project I used REACT to build a server side component to a Movies Web APP. This project also uses MongoDB as the Database that holds all the movie information.",
     "skills": [
-      "React",
-      "Express",
-      "Node",
-      "Sass"
+      "REST API",
+      "MongoDB",
+      "Postman",
+      "JavaScript"
     ],
     "demo": "",
     "source": "https://github.com/MCillo/movie_api.git"
   },
   {
     "title": "MyFlix Client",
-    "imageSrc": "projects/project.png",
+    "imageSrc": "projects/My-Flix-Client.png",
     "description": "This project uses REACT to create the client side for a Single Page Application that works with Movie API to display movie information to the user.",
     "skills": [
       "React",
-      "Express",
-      "Node"
+      "JSX",
+      "React Bootstrap",
+      "Parcel"
     ],
     "demo": "https://myflix765.netlify.app/login",
     "source": "https://github.com/MCillo/myFlix-client.git"
   },
   {
     "title": "Meet App",
-    "imageSrc": "projects/project.png",
+    "imageSrc": "projects/Meet-App.png",
     "description": "This project taught me to use a Test Driven Development approach using REACT to build a serverless, Progressive Web Application. This application uses the Google Calendar API to fetch upcoming events.",
     "skills": [
       "React",
-      "Express",
-      "Node"
+      "TDD Technique",
+      "Google Calendar API",
+      "Serverless Functions"
     ],
     "demo": "https://mcillo.github.io/meet/",
     "source": "https://github.com/MCillo/meet.git"
   },
   {
     "title": "Chat App",
-    "imageSrc": "projects/project.png",
+    "imageSrc": "projects/Chat-App-Homescreen.png",
     "description": "This is a Chat App that was built using React Native, Expo, and Google Firestore Database. This app helped me learn and demonstrate my knowledge of Javascript mobile development.",
     "skills": [
-      "React",
-      "Express",
-      "Node"
+      "React Native",
+      "Expo",
+      "Google Firestore DB"
     ],
     "demo": "https://mcillo.github.io/meet/",
     "source": "https://github.com/MCillo/Chat-App.git"
   },
   {
     "title": "MyFlix Angular Client",
-    "imageSrc": "projects/project.png",
+    "imageSrc": "projects/MyFlix-Angular-Client.png",
     "description": "This project was built using Angular and was a recreation of the My Flix Client that used JavaScript.",
     "skills": [
-      "React",
-      "Express",
-      "Node"
+      "Angular",
+      "TypeScript",
+      "Node.js"
     ],
     "demo": "https://mcillo.github.io/MyFlix-Angular-Client/welcome",
     "source": "https://github.com/MCillo/MyFlix-Angular-Client.git"
