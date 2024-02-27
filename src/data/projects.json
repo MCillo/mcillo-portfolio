@@ -2,7 +2,7 @@
   {
     "title": "Pokedex",
     "imageSrc": "projects/Pokedex-App.png",
-    "description": "This is the first responsive web app that I created on my journey into the world of Web Development. It is a simple app that retrieves information from an external API and displays it for the user. I used HTML, CSS, and JavaScript in the creation of this app.",
+    "description": "This is the first responsive web app that retrieves information from an external API and displays it for the user. I used HTML, CSS, and JavaScript in the creation of this app.",
     "skills": [
       "HTML",
       "CSS",
@@ -21,7 +21,7 @@
       "Postman",
       "JavaScript"
     ],
-    "demo": "",
+    "demo": "https://myflix765.netlify.app/login",
     "source": "https://github.com/MCillo/movie_api.git"
   },
   {
