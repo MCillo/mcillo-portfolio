@@ -6,7 +6,9 @@ import { getImageUrl } from '../../utils';
 
 export const Hero = () => {
 
-  const resumeUrl = 'src/data/Cillo-Michael Resume.pdf';
+  // const resumeUrl = 'src/data/Cillo-Michael Resume.pdf'; // Development
+  const resumeUrl = 'assets/Cillo-Michael Resume.pdf';  // Live
+
 
   return (
     <section className={styles.container}>
