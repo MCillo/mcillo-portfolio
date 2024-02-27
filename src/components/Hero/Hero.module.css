@@ -22,7 +22,7 @@
 .title {
     font-size: 72px;
     font-weight: 800;
-    margin-bottom: 33%;
+    margin-bottom: 10%;
     font-family: var(--font-roboto);
     background: linear-gradient(90deg,
             rgba(255, 255, 255, 1)70%,
@@ -35,6 +35,14 @@
     font-size: 30px;
     font-family: var(--font-roboto);
     margin-bottom: 52px;
+    width: 75%;
+}
+
+.heroButtons {
+  width: 100%;
+  margin-bottom: 26px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .contactBtn {
@@ -48,8 +56,19 @@
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
 }
 
+.resumeBtn {
+  text-decoration: none;
+  background-color: var(--color-primary);
+  color: var(--color-text);
+  border-radius: 100px;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 17px 26px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+}
+
 .heroImg {
-    width: 25%;
+    width: 35%;
     border-radius: 100%;
     z-index: 1;
 
