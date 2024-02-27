@@ -12,14 +12,21 @@
     gap: 10px;
 }
 
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
 .text h2 {
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 700;
     letter-spacing: 4px;
 }
 
 .text p {
-    font-size: 40px;
+    font-size: 20px;
     font-weight: 400;
     letter-spacing: 2px;
 }
@@ -27,7 +34,8 @@
 .links {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    /* align-items: flex-start; */
+    align-items: center;
     list-style: none;
     gap: 26px;
 }
@@ -41,20 +49,28 @@
 .link a {
     color: var(--color-text);
     text-decoration: none;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 400;
     letter-spacing: 1.5px;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: var(--color-link-hover);
+    transition: all 0.3s ease 0s;
 }
 
 @media screen and (max-width: 830px) {
     .container {
         flex-direction: column;
         gap: 23px;
+        align-items: center;
     }
 
     .text {
-        display: flex;
-        flex-direction: column;
+        /* display: flex;
+        flex-direction: column; */
         align-items: center;
     }
 
