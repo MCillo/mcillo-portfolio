@@ -75,8 +75,8 @@
         flex-direction: column;
     }
 
-    .aboutImage {
-        display: none;
+    .title {
+        text-align: center;
     }
 
     .aboutItems {
