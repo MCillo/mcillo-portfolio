@@ -107,6 +107,10 @@
         gap: 34px;
     }
 
+    .title {
+        text-align: center;
+    }
+
     .skills {
         width: 100%;
         flex-direction: row;
