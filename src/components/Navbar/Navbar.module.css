@@ -6,10 +6,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 61px;
+  /* padding-top: 61px; */
+  padding: 25px 0 25px;
   z-index: 2;
   margin: 0 10%;
-  background-color: var(--color-bg);
+  background-color: var(--color-primary);
+  border-radius: 25px;
 }
 
 .title {
@@ -17,6 +19,15 @@
   font-weight: 600;
   text-decoration: none;
   color: var(--color-text);
+  padding-left: 25px;
+  /* padding-bottom: 25px; */
+}
+
+.title a:hover,
+a:focus {
+  text-decoration: none;
+  color: var(--color-link-hover);
+  transition: all 0.3s ease 0s;
 }
 
 .menuBtn {
@@ -32,6 +43,8 @@
   display: flex;
   gap: 47px;
   list-style: none;
+  padding-right: 25px;
+  /* padding-bottom: 25px; */
 }
 
 .menuItems a {
@@ -40,10 +53,20 @@
   text-decoration: none;
 }
 
+.menuItems,
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: var(--color-link-hover);
+  transition: all 0.3s ease 0s;
+}
+
 @media screen and (max-width: 830px) {
   .navbar {
     flex-direction: column;
     align-items: flex-start;
+    margin: 0;
+    border-radius: 0;
   }
 
   .menu {
@@ -73,6 +96,14 @@
         rgba(25, 55, 109, 1) 100%);
     padding: 24px, 33px;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  }
+
+  .menuItems,
+  a:hover,
+  a:focus {
+    text-decoration: none;
+    color: var(--color-link-hover);
+    transition: all 0.3s ease 0s;
   }
 
   .menuOpen {
