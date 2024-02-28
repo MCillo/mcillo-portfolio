@@ -4,13 +4,32 @@
     "organisation": "Augusta Liquors",
     "startDate": "February, 2016",
     "endDate": "Present",
-    "experiences": ["Research, order, and efficiently manage inventory to meet customer demand", "Lead, train, and schedule a dedicated team of 5 employees, fostering a collaborative work environment."]
+    "experiences": [
+      "Research, order, and efficiently manage inventory to meet customer demand",
+      "Lead, train, and schedule a dedicated team of 5 employees, fostering a collaborative work environment."
+    ]
   },
   {
     "role": "Assistant Manager",
     "organisation": "Habersham Beverage",
     "startDate": "September, 2004",
     "endDate": "August, 2014",
-    "experiences": ["Conducted comprehensive research for inventory procurement, ensuring optimal stock levels", "Executed store opening and closing procedures, demonstrating strong organizational skills.","Played a pivotal role in training new employees, contributing to a skilled and cohesive workforce."]
+    "experiences": [
+      "Conducted comprehensive research for inventory procurement, ensuring optimal stock levels",
+      "Executed store opening and closing procedures, demonstrating strong organizational skills.",
+      "Played a pivotal role in training new employees, contributing to a skilled and cohesive workforce."
+    ]
+  },
+  {
+    "role": "Flight Engineer",
+    "organisation": "US Army",
+    "startDate": "September, 1998",
+    "endDate": "August, 2004",
+    "experiences": [
+      "Assisted in the planning and execution of numerous flight operations in both Peacetime and Wartime environments",
+      "Maintained a 91% operational readiness rate on assigned aircraft,21% above Department of the Army Standards",
+      "Trained subordinates in the maintenance and upkeep of CH-47 Aircraft",
+      "Maintained 100% accountability of assigned equipment over 4-year period, valued more than 18 million dollars"
+    ]
   }
 ]
