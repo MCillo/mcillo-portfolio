@@ -15,8 +15,11 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hello, my name is Michael</h1>
         <p className={styles.description}>
-          {/* I am a full-stack developer that loves to make fun and exciting apps. Contact me if you would like to learn more! */}
-          Although most people just call me Mike. I was raised in a military family before I joined the ARMY after High School. I spent 6 years in the ARMY as a CH-47 Chinook Flight Engineer. I've been deployed to numerous locations around the world. After I got out of the ARMY I earned my bachelors degree in Information Technology. My hobbies include woodworking, photography, and playing video games. I am 42 years old and currently work in the Beverage Industry at Augusta Liquors.
+          and I'm embarking on an exciting journey into the ever-evolving realm of full-stack web development. As an entry-level web developer, I bring a unique blend of experiences, combining my proficiency in retail and sales with the discipline and teamwork cultivated during my time in the military.
+          <br />
+          My career shift is driven by a passion for technology and problem-solving. While my previous roles honed my detail-oriented nature and communication skills through customer interactions and public speaking, my military service equipped me with a commitment to accountability and achieving excellence beyond standards.
+          <br />
+          I'm thrilled to channel my diverse background into creating innovative web solutions. Join me on this transformative journey as I embrace new challenges and contribute my skills to the dynamic field of web development!
         </p>
         <div className={styles.heroButtons}>
           <a href="mailto:michael.cillo@me.com" className={styles.contactBtn}>
