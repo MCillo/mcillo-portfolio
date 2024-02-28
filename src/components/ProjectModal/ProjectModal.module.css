@@ -1,0 +1,38 @@
+/* ProjectModal.module.css */
+
+.modal {
+    display: none;
+    /* Initially hide the modal */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    /* Semi-transparent black background */
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContent {
+    background-color: var(--color-primary);
+    padding: 20px;
+    max-width: 600px;
+    /* Adjust the maximum width as needed */
+    width: 100%;
+    border-radius: 8px;
+    position: relative;
+}
+
+.closeButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.modalTitle {
+    font-size: 60px;
+}
