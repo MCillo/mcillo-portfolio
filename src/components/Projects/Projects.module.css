@@ -26,6 +26,12 @@
 }
 
 @media screen and (max-width: 830px) {
+  
+  .container {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
     .title {
         text-align: center;
     }
