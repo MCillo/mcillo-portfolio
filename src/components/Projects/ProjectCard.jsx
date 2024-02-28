@@ -1,24 +1,29 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from "react";
-import { PropTypes } from 'prop-types';
+import PropTypes from 'prop-types';
 
 import styles from "./ProjectCard.module.css";
 import { getImageUrl } from "../../utils";
 
-import ProjectModal from "../Modal/Modal";
+// import { ProjectModal } from "../ProjectModal/ProjectModal";
+import ProjectModal from "../ProjectModal/ProjectModal";
+
 
 export const ProjectCard = ({
   project: { title, imageSrc, description, demo, source },
 }) => {
 
-  let [isModalOpen, setModalOpen] = useState(false);
+  const [isModalOpen, setModalOpen] = useState(false);
 
-  let openModal = () => {
-    setModalOpen = (true);
+  const openModal = () => {
+    console.log('Open Modal function is called');
+    setModalOpen(true);
   };
 
-  let closeModal = () => {
-    setModalOpen = (false);
+  console.log('Rendering ProjectCard');
+
+  const closeModal = () => {
+    setModalOpen(false);
   };
 
   return (
@@ -31,13 +36,12 @@ export const ProjectCard = ({
         />
         <h3 className={styles.title}>{title}</h3>
         <p className={styles.description}>{description}</p>
+        <div className={styles.links}>
 
-        <div className={styles.links}>
           <button onClick={openModal} className={styles.link}>
-            More Info
+More Info
           </button>
-        </div>
-        <div className={styles.links}>
+
           <a href={demo} className={styles.link} target="blank" rel="noopener">
             Demo
           </a>
@@ -46,6 +50,11 @@ export const ProjectCard = ({
           </a>
         </div>
       </div>
+
+      {isModalOpen && (
+        <ProjectModal project={{ title, description }} onClose={closeModal} style={{ display: 'block' }} />
+)}
+
     </div>
   );
 };
