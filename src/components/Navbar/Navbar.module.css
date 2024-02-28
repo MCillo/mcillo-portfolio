@@ -9,13 +9,13 @@
   /* padding-top: 61px; */
   padding: 25px 0 25px;
   z-index: 2;
-  margin: 0 10%;
-  background-color: var(--color-primary);
-  border-radius: 25px;
+  /* margin: 0 10%; */
+  background-color: var(--color-secondary);
+  /* border-radius: 25px; */
 }
 
 .title {
-  font-size: 30px;
+  font-size: 45px;
   font-weight: 600;
   text-decoration: none;
   color: var(--color-text);
