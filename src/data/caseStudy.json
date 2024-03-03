@@ -1,0 +1,15 @@
+[
+  {
+    "title": "Pokedex",
+    "imageSrc": "projects/Pokedex-App.png",
+    "description": "This is the first responsive web app that I created. It retrieves information from an external API and displays it for the user. I used HTML, CSS, and JavaScript in the creation of this app.",
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "demo": "https://mcillo.github.io/simple-js-app/",
+    "source": "https://github.com/MCillo/simple-js-app.git",
+    "caseStudySrc": ""
+  }
+]
