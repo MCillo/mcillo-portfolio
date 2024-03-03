@@ -1,3 +1,4 @@
+// ProjectCard.jsx
 /* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 import PropTypes from 'prop-types';
@@ -5,26 +6,20 @@ import PropTypes from 'prop-types';
 import styles from "./ProjectCard.module.css";
 import { getImageUrl } from "../../utils";
 
-// import { ProjectModal } from "../ProjectModal/ProjectModal";
-import ProjectModal from "../ProjectModal/ProjectModal";
-
+// Start Modal Code
+import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
+import Typography from '@mui/material/Typography';
+import Modal from '@mui/material/Modal';
+// End Modal Code
 
 export const ProjectCard = ({
-  project: { title, imageSrc, description, demo, source },
+  project: { title, imageSrc, skills, demo, source, caseStudy, overview, purposeContext, objective, approach, challenges, duration, credits },
 }) => {
 
-  const [isModalOpen, setModalOpen] = useState(false);
-
-  const openModal = () => {
-    console.log('Open Modal function is called');
-    setModalOpen(true);
-  };
-
-  console.log('Rendering ProjectCard');
-
-  const closeModal = () => {
-    setModalOpen(false);
-  };
+  const [open, setOpen] = useState(false);
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
 
   return (
     <div className={styles.container}>
@@ -35,13 +30,8 @@ export const ProjectCard = ({
           className={styles.image}
         />
         <h3 className={styles.title}>{title}</h3>
-        <p className={styles.description}>{description}</p>
+        {/* <p className={styles.description}>{description}</p> */}
         <div className={styles.links}>
-
-          <button onClick={openModal} className={styles.link}>
-More Info
-          </button>
-
           <a href={demo} className={styles.link} target="blank" rel="noopener">
             Demo
           </a>
@@ -49,13 +39,44 @@ More Info
             Source
           </a>
         </div>
+        {/* Start Modal Code */}
+        <div className={styles.modalLinks}>
+          <a className={styles.modalLink} onClick={handleOpen} >More Info!</a>
+          <Modal
+            open={open}
+            onClose={handleClose}
+          // className={styles.modal}
+          // aria-labelledby="modal-modal-title"
+          // aria-describedby="modal-modal-description"
+          >
+            <div className={styles.modal} onClick={handleClose}>
+              <h1 className={styles.caseStudyTitle}>{caseStudy}</h1>
+              <h3 className={styles.caseStudySection}>Overview</h3>
+              <p className={styles.caseStudyDescription}>{overview}</p>
+              <h3 className={styles.caseStudySection}>Purpose & Context</h3>
+              <p className={styles.caseStudyDescription}>{purposeContext}</p>
+              <h3 className={styles.caseStudySection}>Objective</h3>
+              <p className={styles.caseStudyDescription}>{objective}</p>
+              <h3 className={styles.caseStudySection}>Approach</h3>
+              {/* <h5 className={styles.caseStudySkills}>{skills}</h5> */}
+              <p className={styles.caseStudyDescription}>{approach}</p>
+              <h3 className={styles.caseStudySection}>Challenges</h3>
+              <p className={styles.caseStudyDescription}>{challenges}</p>
+              <h3 className={styles.caseStudySection}>Duration</h3>
+              <p className={styles.caseStudyDescription}>{duration}</p>
+              <h3 className={styles.caseStudySection}>Credits</h3>
+              <p className={styles.caseStudyDescription}>{credits}</p>
+              {/* image of case study */}
+              {/* <img className={styles.caseStudy} src={getImageUrl(caseStudy)} alt="" /> */}
+
+            </div>
+          </Modal>
+        </div>
+        {/* End Modal Code */}
+
+
       </div>
-
-      {isModalOpen && (
-        <ProjectModal project={{ title, description }} onClose={closeModal} style={{ display: 'block' }} />
-)}
-
-    </div>
+    </div >
   );
 };
 
@@ -67,5 +88,6 @@ ProjectCard.propTypes = {
     skills: PropTypes.arrayOf(PropTypes.string).isRequired,
     demo: PropTypes.string.isRequired,
     source: PropTypes.string.isRequired,
+    caseStudy: PropTypes.string.isRequired,
   }).isRequired,
 };
