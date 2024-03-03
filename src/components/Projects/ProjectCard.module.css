@@ -7,9 +7,11 @@
   background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
   box-shadow: 0 16px 14px 0 #04152d;
   padding: 18px 24px;
-  max-width: 375px;
-  height: 700px;
+  /* max-width: 375px; */
+  width: 375px;
+  height: 550px;
   position: relative;
+  margin: 10px;
 }
 
 .content {
@@ -19,10 +21,12 @@
 }
 
 .image {
-  margin-bottom: 26px;
+  margin-bottom: 15px;
   width: 100%;
   height: 300px;
   object-fit: contain;
+
+  /* border: #04152d 5px; */
   /* border-radius: 25px; */
 }
 
@@ -35,19 +39,21 @@
 
 .description {
   margin-top: 6px;
+  margin-bottom: auto;
   font-size: 20px;
   font-weight: 400;
   /* width: 100%; */
   overflow: auto;
-  /* align-items: center; */
+  align-items: center;
 }
 
 .links {
   /* position: absolute; */
   /* bottom: 0; */
-  width: 100%;
+  /* width: 100%; */
+  width: auto;
   margin-top: auto;
-  /* margin-bottom: 26px; */
+  /* margin-bottom: 5px; */
   display: flex;
   justify-content: space-around;
 }
@@ -60,26 +66,69 @@
   border-radius: 100px;
   background: var(--color-primary);
   padding: 1px 22px;
+  text-align: center;
 }
 
-/* start style for modal button */
-.btn {
-  border: none;
-  color: #fff;
-  padding: 0.5rem 1.5rem;
-  border-radius: 5px;
-  cursor: pointer;
-  box-shadow: 0px 5px 5px #ccc;
-  font-size: 1rem;
+.modalLinks {
+  /* position: absolute; */
+  /* bottom: 0; */
+  /* width: 75%; */
+  width: auto;
+  margin-top: 15px;
+  /* margin-bottom: 5px; */
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
 }
 
-.btn-open {
-  background-color: #1d4ed8;
+.modalLink {
+  text-decoration: none;
+  color: var(--color-text);
+  font-size: 30px;
+  font-weight: 600;
+  border-radius: 100px;
+  background: var(--color-primary);
+  padding: 1px 22px;
+  text-align: center;
 }
 
-/* end style for modal button */
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* height: 100%; */
+  height: 85vh;
+  transform: translate(-50%, -50%);
+  width: auto;
+  background-color: white;
+  border: '5px solid';
+  /* border-color: var(--color-primary); */
+  /* border-radius: 35px; */
+  /* box-shadow: 24; */
+  overflow: scroll;
+  /* width: 60%; */
+}
+
+.caseStudyTitle {  
+  text-align: center;
+  font-size: 60px;
+  padding: 10px 20px;
+}
+
+.caseStudySection {
+  text-align: center;
+  font-size: 30px;
+}
+
+.caseStudyDescription {
+  font-size: 18px;
+  padding: 15px 30px;
+}
 
 @media screen and (max-width: 830px) {
+  .container{
+    margin: 2px;
+  }
   .title {
     font-size: 30px;
   }
@@ -89,6 +138,10 @@
   }
 
   .link {
-    font-size: 20px;
+    font-size: 30px;
+  }
+
+  .modalLink {
+    font-size: 30px;
   }
 }
