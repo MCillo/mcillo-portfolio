@@ -14,7 +14,7 @@ import Modal from '@mui/material/Modal';
 // End Modal Code
 
 export const ProjectCard = ({
-  project: { title, imageSrc, skills, demo, source, caseStudy, overview, purposeContext, objective, approach, challenges, duration, credits },
+  project: { title, imageSrc, description, skills, demo, source, caseStudy, overview, purposeContext, objective, approach, challenges, duration, credits },
 }) => {
 
   const [open, setOpen] = useState(false);
@@ -30,7 +30,8 @@ export const ProjectCard = ({
           className={styles.image}
         />
         <h3 className={styles.title}>{title}</h3>
-        {/* <p className={styles.description}>{description}</p> */}
+        <p className={styles.description}>{description}</p>
+
         <div className={styles.links}>
           <a href={demo} className={styles.link} target="blank" rel="noopener">
             Demo
@@ -66,6 +67,15 @@ export const ProjectCard = ({
               <p className={styles.caseStudyDescription}>{duration}</p>
               <h3 className={styles.caseStudySection}>Credits</h3>
               <p className={styles.caseStudyDescription}>{credits}</p>
+              <ul className={styles.skills}>
+                {skills.map((skill, id) => {
+                  return (
+                    <li key={id} className={styles.skill}>
+                      {skill}
+                    </li>
+                  );
+                })}
+              </ul>
               {/* image of case study */}
               {/* <img className={styles.caseStudy} src={getImageUrl(caseStudy)} alt="" /> */}
 
