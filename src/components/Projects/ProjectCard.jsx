@@ -36,9 +36,9 @@ export const ProjectCard = ({
           <a href={demo} className={styles.link} target="blank" rel="noopener">
             Demo
           </a>
-          <a href={source} className={styles.link} target="blank" rel="noopener">
+          {/* <a href={source} className={styles.link} target="blank" rel="noopener">
             Source
-          </a>
+          </a> */}
         </div>
         {/* Start Modal Code */}
         <div className={styles.modalLinks}>
@@ -51,7 +51,7 @@ export const ProjectCard = ({
           // aria-describedby="modal-modal-description"
           >
             <div className={styles.modal} onClick={handleClose}>
-              <h1 className={styles.caseStudyTitle}>{caseStudy}</h1>
+              {/* <h1 className={styles.caseStudyTitle}>{caseStudy}</h1>
               <h3 className={styles.caseStudySection}>Overview</h3>
               <p className={styles.caseStudyDescription}>{overview}</p>
               <h3 className={styles.caseStudySection}>Purpose & Context</h3>
@@ -59,8 +59,8 @@ export const ProjectCard = ({
               <h3 className={styles.caseStudySection}>Objective</h3>
               <p className={styles.caseStudyDescription}>{objective}</p>
               <h3 className={styles.caseStudySection}>Approach</h3>
-              {/* <h5 className={styles.caseStudySkills}>{skills}</h5> */}
-              <p className={styles.caseStudyDescription}>{approach}</p>
+              <h5 className={styles.caseStudySkills}>{skills}</h5>
+              {/* <p className={styles.caseStudyDescription}>{approach}</p>
               <h3 className={styles.caseStudySection}>Challenges</h3>
               <p className={styles.caseStudyDescription}>{challenges}</p>
               <h3 className={styles.caseStudySection}>Duration</h3>
@@ -75,9 +75,9 @@ export const ProjectCard = ({
                     </li>
                   );
                 })}
-              </ul>
+              </ul> */}
               {/* image of case study */}
-              {/* <img className={styles.caseStudy} src={getImageUrl(caseStudy)} alt="" /> */}
+              <img className={styles.caseStudy} src={getImageUrl(caseStudy)} alt="" />
 
             </div>
           </Modal>
