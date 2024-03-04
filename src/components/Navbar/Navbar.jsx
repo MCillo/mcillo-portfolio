@@ -12,7 +12,7 @@ export const Navbar = () => {
     e.preventDefault();
     const element = document.getElementById(id);
     if (element) {
-      element.scrollIntoView({ behavior: 'auto' });
+      element.scrollIntoView({ behavior: 'smooth' });
       setMenuOpen(false);
     }
   };
