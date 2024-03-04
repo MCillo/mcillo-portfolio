@@ -14,7 +14,7 @@
 
 .title {
     color: var(--color-text);
-    font-size: 35px;
+    font-size: 32px;
     font-weight: 700;
     letter-spacing: 1.75px;
     text-transform: uppercase;
@@ -57,12 +57,12 @@
 }
 
 .aboutItem h3 {
-    font-size: 25px;
+    font-size: 21px;
     font-weight: 600;
 }
 
 .aboutItem p {
-    font-size: 25px;
+    font-size: 21px;
 }
 
 @media screen and (max-width: 830px) {
