@@ -17,16 +17,17 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    justify-content: center;
 }
 
 .text h2 {
-    font-size: 60px;
+    font-size: 34px;
     font-weight: 700;
     letter-spacing: 4px;
 }
 
 .text p {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     letter-spacing: 2px;
 }
@@ -34,8 +35,6 @@
 .links {
     display: flex;
     flex-direction: column;
-    /* align-items: flex-start; */
-    align-items: center;
     list-style: none;
     gap: 26px;
 }
