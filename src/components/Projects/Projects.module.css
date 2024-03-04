@@ -13,6 +13,7 @@
     font-weight: 700;
     letter-spacing: 1.75px;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .projects {
@@ -27,11 +28,11 @@
 }
 
 @media screen and (max-width: 830px) {
-  
-  .container {
-    margin-left: 5%;
-    margin-right: 5%;
-  }
+
+    .container {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 
     .title {
         text-align: center;
