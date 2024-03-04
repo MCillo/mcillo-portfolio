@@ -48,7 +48,7 @@ a:focus {
 }
 
 .menuItems a {
-  font-size: 25px;
+  font-size: 35px;
   color: var(--color-text);
   text-decoration: none;
 }
