@@ -110,26 +110,29 @@
     .container {
         margin-left: 5%;
         margin-right: 5%;
+        height: auto;
     }
 
     .content {
         flex-direction: column;
         align-items: center;
-        gap: 34px;
+        gap: 45em;
     }
 
     .title {
         text-align: center;
     }
 
-    .skills {
+    .skills,
+    .history {
         width: 100%;
-        flex-direction: row;
+    }
+
+    .skills {
         justify-content: center;
     }
 
     .history {
-        width: 100%;
-        gap: 9px;
+        padding: 10px;
     }
 }
