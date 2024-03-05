@@ -44,6 +44,8 @@
     font-size: 18px;
 }
 
+
+
 .contactBtn {
     text-decoration: none;
     background-color: var(--color-primary);
@@ -54,6 +56,13 @@
     margin-right: 24px;
 }
 
+.contactBtn:hover {
+    text-decoration: none;
+    color: var(--color-text);
+    background-color: var(--color-link-hover);
+    transition: all 0.3s ease 0s;
+}
+
 .resumeBtn {
     text-decoration: none;
     background-color: var(--color-primary);
@@ -61,6 +70,13 @@
     border-radius: 100px;
     padding: 17px 26px;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.resumeBtn:hover {
+    text-decoration: none;
+    color: var(--color-text);
+    background-color: var(--color-link-hover);
+    transition: all 0.3s ease 0s;
 }
 
 .heroImg {
