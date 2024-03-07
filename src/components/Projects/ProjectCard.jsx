@@ -12,9 +12,13 @@ export const ProjectCard = ({
   project: { title, imageSrc, description, source, demo, caseStudy },
 }) => {
 
-  const [open, setOpen] = useState(false);
-  const handleOpen = () => setOpen(true);
-  const handleClose = () => setOpen(false);
+  // const [open, setOpen] = useState(false);
+  // const handleOpen = () => setOpen(true);
+  // const handleClose = () => setOpen(false);
+
+  const openCaseStudy = () => {
+    window.open(caseStudy, '_blank');
+}
 
   return (
     <div className={styles.container}>
@@ -34,20 +38,25 @@ export const ProjectCard = ({
           <a href={source} className={styles.link} target="blank" rel="noopener">
             GitHub
           </a>
-          <a className={styles.link} onClick={handleOpen} >
+          {/* <a className={styles.link} onClick={handleOpen} >
+            More Info!
+          </a> */}
+
+           <a className={styles.link} onClick={openCaseStudy} >
             More Info!
           </a>
-
-          <Modal
+          
+          
+          {/* <Modal
             open={open}
             onClose={handleClose}
           >
             <div className={styles.modal} onClick={handleClose}>
-              {/* image of case study */}
+    
               <img className={styles.caseStudy} src={getImageUrl(caseStudy)} alt="" />
 
             </div>
-          </Modal>
+          </Modal> */}
         </div>
         {/* End Modal Code */}
 
