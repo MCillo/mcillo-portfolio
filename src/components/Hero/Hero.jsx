@@ -15,11 +15,20 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hello, my name is Michael</h1>
         <p className={styles.description}>
-          And I'm embarking on an exciting journey into the ever-evolving realm of full-stack web development. As an entry-level web developer, I bring a unique blend of experiences, combining my proficiency in retail and sales with the discipline and teamwork cultivated during my time in the military.
-          <br /><br />
-         <p> My career shift is driven by a passion for technology and problem-solving. While my previous roles honed my detail-oriented nature and communication skills through customer interactions and public speaking, my military service equipped me with a commitment to accountability and achieving excellence beyond standards.</p>
+          And I'm embarking on an exciting journey into the ever-evolving realm of full-stack web
+          development. As an entry-level web developer, I bring a unique blend of experiences,
+          combining my proficiency in retail and sales with the discipline and teamwork cultivated
+          during my time in the military.
           <br />
-          I'm thrilled to channel my diverse background into creating innovative web solutions. Join me on this transformative journey as I embrace new challenges and contribute my skills to the dynamic field of web development!
+          My career shift is driven by a passion for technology and problem-solving. While my
+          previous roles honed my detail-oriented nature and communication skills through customer
+          interactions and public speaking, my military service equipped me with a commitment to
+          accountability and achieving excellence beyond standards.
+
+          <br />
+          I'm thrilled to channel my diverse background into creating innovative web solutions.
+          Join me on this transformative journey as I embrace new challenges and contribute my skills
+          to the dynamic field of web development!
         </p>
         <div className={styles.heroButtons}>
           <a href="mailto:michael.cillo@me.com" className={styles.contactBtn}>
