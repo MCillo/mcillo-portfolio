@@ -9,7 +9,7 @@ import { getImageUrl } from "../../utils";
 import Modal from '@mui/material/Modal';
 
 export const ProjectCard = ({
-  project: { title, imageSrc, description, skills, demo, caseStudy },
+  project: { title, imageSrc, description, source, demo, caseStudy },
 }) => {
 
   const [open, setOpen] = useState(false);
@@ -31,7 +31,12 @@ export const ProjectCard = ({
           <a href={demo} className={styles.link} target="blank" rel="noopener">
             Demo
           </a>
-          <a className={styles.link} onClick={handleOpen} >More Info!</a>
+          <a href={source} className={styles.link} target="blank" rel="noopener">
+            GitHub
+          </a>
+          <a className={styles.link} onClick={handleOpen} >
+            More Info!
+          </a>
 
           <Modal
             open={open}
