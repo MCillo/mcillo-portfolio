@@ -10,7 +10,7 @@
     ],
     "demo": "https://mcillo.github.io/simple-js-app/",
     "source": "https://github.com/MCillo/simple-js-app",
-    "caseStudy": "projects/Pokedex-Case-Study.png",
+    "caseStudy": "src/components/CaseStudies/PokedexCaseStudy.html",
     "overview": "The Pokedex Web Application is a web app that was developed using HTML,CSS,and JavaScript.This app will provide users with information about Pokemon. Users will be able to view a list of all Pokemon as well as search for a particular Pokemon using the search function. The user can also select a Pokemon and view more detailed information about the Pokemon.",
     "purposeContext": "Pokedex was the first of many projects that I built as a part of my Carer Foundry Full Stack Web Development course. The purpose of this particular project was to learn some of the basics of HTML, CSS, and JavaScript while developing a fully functioning web app.",
     "objective": "My objective with this project was to build a simple web apt that I could use in my portfolio to demonstrate my initial understanding of web app development. The problem I set out to solve was how to build a web application that could acess data from an external API and display that data to a user.",
