@@ -1,0 +1,28 @@
+.body {
+background-image: url(/Users/michaelcillo/mcillo-portfolio/assets/projects/pokeball-blur.png);
+background-size: 65%;
+background-position: center;
+background-repeat: no-repeat;
+width: 100%;
+}
+
+.title {
+  text-align: center;
+}
+
+.overviewContainer {
+  display: flexbox;
+  flex-direction: row;
+  background-color: aqua;
+}
+.overview {
+  width: 40%;
+}
+
+.pokedexAppImg {
+  max-width: 60%;
+}
+
+.challenges {
+  width: 40%;
+}
