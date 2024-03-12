@@ -17,8 +17,8 @@ export const ProjectCard = ({
   // const handleClose = () => setOpen(false);
 
   const openCaseStudy = () => {
-    window.open(caseStudy, '_blank');
-}
+    window.open(caseStudy, '_self');
+  }
 
   return (
     <div className={styles.container}>
@@ -42,11 +42,11 @@ export const ProjectCard = ({
             More Info!
           </a> */}
 
-           <a className={styles.link} onClick={openCaseStudy} >
+          <a className={styles.link} onClick={openCaseStudy} >
             More Info!
           </a>
-          
-          
+
+
           {/* <Modal
             open={open}
             onClose={handleClose}
