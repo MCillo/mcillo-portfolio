@@ -24,14 +24,7 @@
     ],
     "demo": "https://myflix765.netlify.app/login",
     "source": "https://github.com/MCillo/movie_api.git",
-    "caseStudy": "MyFlix API Case Study",
-    "overview": "The MyFlix API was ",
-    "purposeContext": "",
-    "objective": "",
-    "approach": "",
-    "challenges": "",
-    "duration": "",
-    "credits": ""
+    "caseStudy": "src/components/CaseStudies/MyFlixAPICaseStudy.html"
   },
   {
     "title": "MyFlix Client",
@@ -45,14 +38,7 @@
     ],
     "demo": "https://myflix765.netlify.app/login",
     "source": "https://github.com/MCillo/myFlix-client.git",
-    "caseStudy": "MyFlix Client Case Study",
-    "overview": "",
-    "purposeContext": "",
-    "objective": "",
-    "approach": "",
-    "challenges": "",
-    "duration": "",
-    "credits": ""
+    "caseStudy": "src/components/CaseStudies/MyFlixClientCaseStudy.html"
   },
   {
     "title": "Meet App",
@@ -66,14 +52,7 @@
     ],
     "demo": "https://mcillo.github.io/meet/",
     "source": "https://github.com/MCillo/meet.git",
-    "caseStudy": "Meet App Case Study",
-    "overview": "",
-    "purposeContext": "",
-    "objective": "",
-    "approach": "",
-    "challenges": "",
-    "duration": "",
-    "credits": ""
+    "caseStudy": "src/components/CaseStudies/MeetAppCaseStudy.html"
   },
   {
     "title": "Chat App",
@@ -86,14 +65,7 @@
     ],
     "demo": "https://mcillo.github.io/meet/",
     "source": "https://github.com/MCillo/Chat-App.git",
-    "caseStudy": "Chat App Case Study",
-    "overview": "",
-    "purposeContext": "",
-    "objective": "",
-    "approach": "",
-    "challenges": "",
-    "duration": "",
-    "credits": ""
+    "caseStudy": "src/components/CaseStudies/ChatAppCaseStudy.html"
   },
   {
     "title": "MyFlix Angular Client",
@@ -106,13 +78,6 @@
     ],
     "demo": "https://mcillo.github.io/MyFlix-Angular-Client/",
     "source": "https://github.com/MCillo/MyFlix-Angular-Client.git",
-    "caseStudy": "MyFlix Angular Case Study",
-    "overview": "",
-    "purposeContext": "",
-    "objective": "",
-    "approach": "",
-    "challenges": "",
-    "duration": "",
-    "credits": ""
+    "caseStudy": "src/components/CaseStudies/MyFlixAngularClientCaseStudy.html"
   }
 ]
