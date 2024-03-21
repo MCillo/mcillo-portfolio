@@ -8,7 +8,7 @@
   box-shadow: 0 16px 14px 0 #04152d;
   padding: 18px 24px;
   width: 375px;
-  height: 720px;
+  height: 730px;
   position: relative;
   margin: 10px;
 }
@@ -29,13 +29,13 @@
 .title {
   font-size: 35px;
   font-weight: 700;
-  height: 75px;
+  height: 80px;
   text-align: center;
 }
 
 .description {
-  /* margin-top: 2%;
-  margin-bottom: 2%; */
+  margin-top: 2%;
+  margin-bottom: 2%;
   font-size: 20px;
   font-weight: 400;
   overflow: auto;
@@ -90,6 +90,7 @@
 @media screen and (max-width: 830px) {
   .container {
     margin: 2px;
+    height: 780px;
   }
 
   .title {
@@ -98,6 +99,7 @@
 
   .description {
     font-size: 20px;
+    min-height: 190px;
   }
 
   .link {
