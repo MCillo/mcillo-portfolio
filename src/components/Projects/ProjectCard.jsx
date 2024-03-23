@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 import styles from "./ProjectCard.module.css";
 import { getImageUrl } from "../../utils";
 
-import Modal from '@mui/material/Modal';
+// import Modal from '@mui/material/Modal';
 
 export const ProjectCard = ({
   project: { title, imageSrc, description, source, demo, caseStudy },
@@ -46,20 +46,7 @@ export const ProjectCard = ({
             More Info!
           </a>
 
-
-          {/* <Modal
-            open={open}
-            onClose={handleClose}
-          >
-            <div className={styles.modal} onClick={handleClose}>
-    
-              <img className={styles.caseStudy} src={getImageUrl(caseStudy)} alt="" />
-
-            </div>
-          </Modal> */}
         </div>
-        {/* End Modal Code */}
-
 
       </div>
     </div >
