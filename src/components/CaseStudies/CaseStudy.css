@@ -1,8 +1,7 @@
-@import "../../vars.css";
 
 .body {
-    background-color: var(--color-bg);
-    color: var(--color-text);
+    background-color: #04152d;
+    color: #fff;
     font-family: 'outfit',
         Arial,
         Helvetica,
@@ -10,6 +9,7 @@
 }
 
 .title {
+  margin-top: 5%;
     text-align: center;
     font-size: 35px;
 }
@@ -21,14 +21,59 @@
 h3 {
     text-align: center;
     font-size: 24px;
+    text-decoration: underline #fff;
 }
 
 p {
     font-size: 20px;
     line-height: 1.5;
     font-weight: 400;
+    text-align: center;
 }
 
 a {
     font-size: 20px;
 }
+
+/* .techUsed{
+  text-align: center;
+} */
+
+.buttonContainer{
+  display: flex;
+    justify-content: center; 
+    margin-bottom: 5%;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px; 
+  background-color: #007bff; 
+  color: #fff; 
+  text-decoration: none; 
+  border-radius: 5px; 
+  border: none; 
+  cursor: pointer; 
+  font-size: 16px; 
+  font-weight: bold; 
+}
+
+.button:hover {
+  background-color: #0056b3; 
+}
+
+@media screen and (max-width: 830px) {
+  
+  .title{
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  p,a {
+    font-size: 18px;
+  }
+}
+
