@@ -10,7 +10,7 @@
     ],
     "demo": "https://mcillo.github.io/simple-js-app/",
     "source": "https://github.com/MCillo/simple-js-app",
-    "caseStudy": "src/components/CaseStudies/PokedexCaseStudy.html"
+    "caseStudy": "PokedexCaseStudy.html"
   },
   {
     "title": "MyFlix API",
