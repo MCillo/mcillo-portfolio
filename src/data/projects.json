@@ -24,7 +24,7 @@
     ],
     "demo": "https://myflix765.netlify.app/login",
     "source": "https://github.com/MCillo/movie_api.git",
-    "caseStudy": "src/components/CaseStudies/MyFlixAPICaseStudy.html"
+    "caseStudy": "MyFlixAPICaseStudy.html"
   },
   {
     "title": "MyFlix Client",
