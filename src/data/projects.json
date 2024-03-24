@@ -38,7 +38,7 @@
     ],
     "demo": "https://myflix765.netlify.app/login",
     "source": "https://github.com/MCillo/myFlix-client.git",
-    "caseStudy": "src/components/CaseStudies/MyFlixClientCaseStudy.html"
+    "caseStudy": "MyFlixClientCaseStudy.html"
   },
   {
     "title": "Meet App",
@@ -52,7 +52,7 @@
     ],
     "demo": "https://mcillo.github.io/meet/",
     "source": "https://github.com/MCillo/meet.git",
-    "caseStudy": "src/components/CaseStudies/MeetAppCaseStudy.html"
+    "caseStudy": "MeetAppCaseStudy.html"
   },
   {
     "title": "Chat App",
@@ -63,9 +63,9 @@
       "Expo",
       "Google Firestore DB"
     ],
-    "demo": "https://mcillo.github.io/meet/",
+    "demo": "https://github.com/MCillo/Chat-App.git",
     "source": "https://github.com/MCillo/Chat-App.git",
-    "caseStudy": "src/components/CaseStudies/ChatAppCaseStudy.html"
+    "caseStudy": "ChatAppCaseStudy.html"
   },
   {
     "title": "MyFlix Angular Client",
@@ -78,6 +78,6 @@
     ],
     "demo": "https://mcillo.github.io/MyFlix-Angular-Client/",
     "source": "https://github.com/MCillo/MyFlix-Angular-Client.git",
-    "caseStudy": "src/components/CaseStudies/MyFlixAngularClientCaseStudy.html"
+    "caseStudy": "MyFlixAngularClientCaseStudy.html"
   }
 ]
