@@ -55,19 +55,6 @@
     "caseStudy": "MeetAppCaseStudy.html"
   },
   {
-    "title": "Chat App",
-    "imageSrc": "projects/Chat-App-Homescreen.png",
-    "description": "This is a Chat App that was built using React Native, Expo, and Google Firestore Database. This app helped me learn and demonstrate my knowledge of Javascript mobile development.",
-    "skills": [
-      "React Native",
-      "Expo",
-      "Google Firestore DB"
-    ],
-    "demo": "https://github.com/MCillo/Chat-App.git",
-    "source": "https://github.com/MCillo/Chat-App.git",
-    "caseStudy": "ChatAppCaseStudy.html"
-  },
-  {
     "title": "MyFlix Angular Client",
     "imageSrc": "projects/MyFlix-Angular-Client.png",
     "description": "This project was built using Angular and was a recreation of the My Flix Client that used JavaScript.",
